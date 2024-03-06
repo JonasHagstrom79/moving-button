@@ -14,5 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
         button.style.position = 'absolute';
         button.style.left = newX + 'px';
         button.style.top = newY + 'px';
+
+        // Play sound
+        document.getElementById('laughSound').play();
     });
 });
